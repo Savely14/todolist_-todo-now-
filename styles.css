@@ -1,0 +1,151 @@
+﻿*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+/* border: 1px solid #faf7f7; */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2C2C2C;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #2C2C2C;
+    width: 50%;
+    margin-top: 5%;
+}
+
+header {
+    width: 50%;
+    margin-bottom: 5%;
+    background-color: #2C2C2C;
+}
+
+h1 {
+    width: 80%;
+    color: #faf7f7;
+    font-family: Racing Sans One;
+    border-bottom: 1px solid #faf8f8;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    margin-left: 10%;
+    text-align: center; 
+}
+
+h1 span { 
+    background:#2C2C2C; 
+    padding:0 10px; 
+}
+
+.notePencilLine {
+    margin-top: 2.5em;
+    border-bottom: 1px solid #faf8f8;
+}
+
+.notePencil { 
+    text-align: center;
+    margin-top: -1em;
+}
+
+.notePencil svg {
+    width: 15%;
+    background-color: #2C2C2C;
+}
+
+.taskSection {
+    background-color: #2C2C2C;
+    width: 50%;
+}
+
+.addTask {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#in {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 48%;
+}
+
+#add {
+    font-family: Racing Sans One;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: -2rem;
+    background-color: #4F4F4F;
+    color: #faf7f7;
+}
+
+/* #taskInput0 {
+    display: none;
+}
+
+#garbageButton0 {
+    display: none
+} */
+
+.garbageButton {
+    background-color: #4F4F4F;
+    border-radius: 3px;
+    border: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: -0.2rem;
+}
+
+.addTaskBottomBorder {
+    border-bottom: 1px solid #faf8f8;
+    margin-bottom: 13%;
+}
+
+ul {
+    list-style: none;
+    margin-left: -3rem;
+}
+
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    
+}
+
+placeholder {
+    color: #eec1c1;
+}
+
+.tasksTextField {
+    background-color: #222222;
+    border: none;
+    width: 50%;
+}
+
+input {
+    color: #eec1c1;
+}
+
+.tasksButton {
+    background-color: #999999;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 2.5%;
+    /* margin-left: 24rem;
+    margin-top: -1rem; */
+}
+
+.fa-trash-can {
+    
+    margin: -2rem;
+}
+
+
